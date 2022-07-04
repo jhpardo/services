@@ -1,0 +1,5 @@
+https://platzi.com/tutoriales/1533-mongodb/4930-instalar-mongo-db-usando-docker/
+
+docker run -d -p 27017:27017 --name myMongoDB mongo:4.2.21
+
+docker exec -it myMongoDB bash
